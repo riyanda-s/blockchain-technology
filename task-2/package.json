@@ -1,0 +1,17 @@
+{
+  "name": "project2-smart-contract",
+  "version": "1.0.0",
+  "description": "Project 2 - Course Reward Smart Contract (Blockchain Course)",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "coverage": "npx hardhat coverage",
+    "node": "npx hardhat node",
+    "deploy:local": "npx hardhat run scripts/deploy.js --network localhost",
+    "interact:local": "npx hardhat run scripts/interact.js --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
